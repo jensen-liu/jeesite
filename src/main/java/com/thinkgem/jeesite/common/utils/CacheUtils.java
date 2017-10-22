@@ -22,7 +22,6 @@ public class CacheUtils {
 	private static CacheManager cacheManager = SpringContextHolder.getBean(CacheManager.class);
 	
 	private static final String SYS_CACHE = "sysCache";
-
 	/**
 	 * 获取SYS_CACHE缓存
 	 * @param key
